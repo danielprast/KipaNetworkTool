@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol URLRequestAdapter {
+public protocol URLRequestAdapter {
     /// Inspects and adapts the specified `URLRequest` in some manner if necessary and returns the result.
     ///
     /// - parameter urlRequest: The URL request to adapt.

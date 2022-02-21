@@ -23,19 +23,19 @@ public class URLRequestBuilder {
   }
   
   @discardableResult
-  func set(method: NetworkRequestMethod) -> Self {
+  public func set(method: NetworkRequestMethod) -> Self {
     self.method = method
     return self
   }
   
   @discardableResult
-  func set(path: String) -> Self {
+  public func set(path: String) -> Self {
     self.path = path
     return self
   }
   
   @discardableResult
-  func set(headers: HeaderNetworkRequest?) -> Self {
+  public func set(headers: HeaderNetworkRequest?) -> Self {
     self.headers = headers
     return self
   }

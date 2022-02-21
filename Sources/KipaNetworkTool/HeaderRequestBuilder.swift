@@ -57,8 +57,8 @@ public class HeaderRequestBuilder {
     headers = header
   }
   
-  var headers: [String: String] {
-    get{
+  public var headers: [String: String] {
+    get {
       return header
     }
     
