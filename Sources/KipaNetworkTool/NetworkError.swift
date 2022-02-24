@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  NetworkError.swift
 //  
 //
 //  Created by Daniel Prastiwa on 21/02/22.
@@ -17,4 +17,5 @@ public enum NetworkError: LocalizedError {
   case internalServerError    //Status code 500
   case noInternetConnection
   case badRequest
+  case parsingError
 }
