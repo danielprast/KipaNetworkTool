@@ -1,5 +1,10 @@
-// swift-tools-version:5.5
-// The swift-tools-version declares the minimum version of Swift required to build this package.
+// swift-tools-version:5.3
+//
+//  Package@5.3.swift
+//  KipaNetworkTool
+//
+//  Created by Daniel Prastiwa on 03/03/22.
+//
 
 import PackageDescription
 
